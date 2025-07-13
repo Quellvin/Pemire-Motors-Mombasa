@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: pemire-motors-site
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    plan: free
