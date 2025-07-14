@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, send_from_directory
-from flask_cors import CORS
+from flask_cars import CARS
 import sqlite3
 import os
 from werkzeug.utils import secure_filename
